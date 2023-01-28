@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  /* Семейство шрифтов */
+  font-size: 12pt;
+  /* Размер основного шрифта в пунктах  */
+  background-color: #f0f0f0;
+  /* Цвет фона веб-страницы */
+  color: #333;
+  /* Цвет основного текста */
+}
+
+h1 {
+  color: #a52a2a;
+  /* Цвет заголовка */
+  font-size: 28pt;
+  /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif;
+  /* Семейство шрифтов */
+  font-weight: normal;
+  /* Нормальное начертание текста  */
+  padding-left: 10px;
+}
+
+h2 {
+  color: #a52a2a;
+  /* Цвет заголовка */
+  font-size: 24pt;
+  /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif;
+  /* Семейство шрифтов */
+  font-weight: normal;
+  /* Нормальное начертание текста  */
+  padding-left: 20px;
+}
+
+h3 {
+  color: #a52a2f;
+  /* Цвет заголовка */
+  font-size: 20pt;
+  /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif;
+  /* Семейство шрифтов */
+  font-weight: normal;
+  /* Нормальное начертание текста  */
+  padding-left: 30px;
+}
+
+h4 {
+  color: #a52a2a;
+  /* Цвет заголовка */
+  font-size: 18pt;
+  /* Размер шрифта в пунктах */
+  padding-left: 40px;
+}
+
+h5 {
+  color: #a52a2a;
+  /* Цвет заголовка */
+  font-size: 16pt;
+  /* Размер шрифта в пунктах */
+  padding-left: 50px;
+}
+
+h6 {
+  color: #a52a2a;
+  /* Цвет заголовка */
+  font-size: 10pt;
+  /* Размер шрифта в пунктах */
+  padding-left: 60px;
+}
+
+p {
+  text-align: justify;
+  /* Выравнивание по ширине */
+  margin-left: 50px;
+  /* Отступ справа в пикселах */
+  text-indent: 50px;
+  /* Красная строка - абзацный отступ в первой строке */
+}
+
+table {
+  background-color: lightgray;
+  margin-left: 75px;
+  /* Отступ справа в пикселах */
+}
+
+li {
+  padding-left: 30px;
+  padding-inline-start: 1ch;
+}
+
+.bearlist {
+  list-style-image: url('../img/bear16.png');
+}
+
+div {
+  font-size: 10px;
+  margin-left: 50px;
+  /* Отступ справа в пикселах */
+}
+
+tr {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
+.comments {
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px;
+  color: blue;
+  font-style: italic;
+  margin-left: 50px;
+  /* Отступ справа в пикселах */
+  margin-right: 500px;
+  /* Отступ справа в пикселах */
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+footer {
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
+.tatoo_font{
+	font-family: 'AngillaTattoo',arial, verdana, sans-serif;;
+}
+.wow{
+  font-size: 25px;
+  background-color: #a52a2a;
+  list-style-type: '!!!!!' ;
+
+}
+
+@font-face {
+	font-family: 'AngillaTattoo';
+	src: url('../fonts/angillatattoo.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/angillatattoo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/angillatattoo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/angillatattoo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/angillatattoo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/angillatattoo.svg#angillatattoo') format('svg'); /* Chrome < 4, Legacy iOS */
+}
